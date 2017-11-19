@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SampleVideoView</string>
+
+    <string name="VideoView_error_text_invalid_progressive_playback">"抱歉，该视频不适合在此设备上播放。"</string>
+    <string name="VideoView_error_text_unknown">"无法播放此视频。"</string>
+    <string name="lockscreen_transport_prev_description">"上一曲"</string>
+    <string name="lockscreen_transport_next_description">"下一曲"</string>
+    <string name="lockscreen_transport_pause_description">"暂停"</string>
+    <string name="lockscreen_transport_play_description">"播放"</string>
+    <string name="lockscreen_transport_stop_description">"停止"</string>
+    <string name="lockscreen_transport_rew_description">"快退"</string>
+    <string name="lockscreen_transport_ffw_description">"快进"</string>
+
+    <string name="sure">"确定"</string>
+
+
+</resources>
