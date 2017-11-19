@@ -31,7 +31,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener, 
             case R.id.btn_play:
                 //videoView 不支持读取assets目录，拷贝到sd卡 /sdcard/Android/data/<PackageName>/files/cache/media/下播放
                 String assetPath = "media/zbazls.mp4";//zbazls
-                String diskPath = mContext.getExternalFilesDir("cache/media") + File.separator + "zbazls.mp4";//zbazls
+               String diskPath = mContext.getExternalFilesDir("cache/media") + File.separator + "zbazls.mp4";//zbazls
+                //String diskPath="http://flashmedia.eastday.com/newdate/news/2016-11/shznews1125-19.mp4";
                 File diskFile = new File(diskPath);
                 if (!diskFile.exists()) {
                     CopyMediaFileThread thread = new CopyMediaFileThread(mContext, assetPath, diskPath, this);

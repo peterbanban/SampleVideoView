@@ -23,7 +23,8 @@ public class VideoViewActivity extends BaseActivity implements View.OnClickListe
         getWindow().requestFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_video_view);
         mVideoView = (MyVideoView) findViewById(R.id.video_view);
-        String path = getIntent().getStringExtra("path");
+        //String path = getIntent().getStringExtra("path");
+        String path="http://flashmedia.eastday.com/newdate/news/2016-11/shznews1125-19.mp4";
         //设置操作控件
         mVideoView.setMediaController(new MyMediaController(VideoViewActivity.this));
         mVideoView.setVideoPath(path);
